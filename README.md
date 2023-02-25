@@ -1,3 +1,7 @@
+
+Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verでインストールできるプラグインを選別しました。
+
+
 # Docker Compose を使った自分好みの Redmine 実行環境
 
 ## はじめに
