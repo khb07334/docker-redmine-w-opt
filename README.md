@@ -1,16 +1,16 @@
 
 Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verでインストールできるプラグインを選別しました。
 
-_# install plugins
-_        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_banner.git plugins/redmine_banner; \
-|        gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_badge.git plugins/redmine_issue_badge; \
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_templates.git  plugins/redmine_issue_templates; \
-|        gosu redmine git clone --depth 1 https://github.com/bizyman/sidebar_hide.git plugins/sidebar_hide; \
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/cat-in-136/redmine_scheduling_poll.git plugins/redmine_scheduling_poll; \
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/clear-code/redmine_full_text_search.git plugins/full_text_search; \
-|        gosu redmine git clone --depth 1 https://github.com/danmunn/redmine_dmsf.git plugins/redmine_dmsf; \
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/deecay/redmine_pivot_table.git plugins/redmine_pivot_table; \
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/haru/redmine_logs.git plugins/redmine_logs; \
+* # install plugins
+*        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_banner.git plugins/redmine_banner; \. 
+|        gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_badge.git plugins/redmine_issue_badge; \. 
+|        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_templates.git  plugins/redmine_issue_templates; \. 
+|        gosu redmine git clone --depth 1 https://github.com/bizyman/sidebar_hide.git plugins/sidebar_hide; \. 
+|        # (NG)gosu redmine git clone --depth 1 https://github.com/cat-in-136/redmine_scheduling_poll.git plugins/redmine_scheduling_poll; \. 
+|        # (NG)gosu redmine git clone --depth 1 https://github.com/clear-code/redmine_full_text_search.git plugins/full_text_search; \. 
+|        gosu redmine git clone --depth 1 https://github.com/danmunn/redmine_dmsf.git plugins/redmine_dmsf; \. 
+|        # (NG)gosu redmine git clone --depth 1 https://github.com/deecay/redmine_pivot_table.git plugins/redmine_pivot_table; \. 
+|        # (NG)gosu redmine git clone --depth 1 https://github.com/haru/redmine_logs.git plugins/redmine_logs; \. 
 |        gosu redmine git clone --depth 1 https://github.com/haru/redmine_theme_changer.git plugins/redmine_theme_changer; \
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/haru/redmine_wiki_extensions.git plugins/redmine_wiki_extensions; \
 |# #        gosu redmine git clone --depth 1 https://github.com/hidakatsuya/redmine_default_custom_query.git plugins/redmine_default_custom_query; \
