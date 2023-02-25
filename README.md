@@ -1,9 +1,12 @@
 
+https://qiita.com/juno-nishizaki/items/4138fd43ba22d8880a5d
+https://github.com/juno-nishizaki/myfav-redmine
+
 Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verでインストールできるプラグインを選別しました。
 
-|# install plugins
-|        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_banner.git plugins/redmine_banner; \. 
-|        gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_badge.git plugins/redmine_issue_badge; \. 
+#install plugins
+#  (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_banner.git plugins/redmine_banner; \. 
+   gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_badge.git plugins/redmine_issue_badge; \. 
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_templates.git  plugins/redmine_issue_templates; \. 
 |        gosu redmine git clone --depth 1 https://github.com/bizyman/sidebar_hide.git plugins/sidebar_hide; \. 
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/cat-in-136/redmine_scheduling_poll.git plugins/redmine_scheduling_poll; \. 
