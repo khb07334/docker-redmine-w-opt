@@ -1,4 +1,5 @@
 https://qiita.com/juno-nishizaki/items/4138fd43ba22d8880a5d. 
+
 Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verでインストールできるプラグインを選別しました。  
 ```
 Dockerfile
