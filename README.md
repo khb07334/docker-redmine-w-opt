@@ -3,7 +3,7 @@ https://qiita.com/juno-nishizaki/items/4138fd43ba22d8880a5d
 https://github.com/juno-nishizaki/myfav-redmine
 
 Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verでインストールできるプラグインを選別しました。
-
+ ```
 #install plugins
 #  (NG)gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_banner.git plugins/redmine_banner; \. 
    gosu redmine git clone --depth 1 https://github.com/akiko-pusu/redmine_issue_badge.git plugins/redmine_issue_badge; \. 
@@ -27,6 +27,7 @@ Fav-redmineを元にRedmineのVerを４から5.0.3にUpdateさせて、新Verで
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/suer/redmine_enter_cancel.git plugins/redmine_enter_cancel; \
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/tkusukawa/redmine_work_time.git plugins/redmine_work_time; \
 |        # (NG)gosu redmine git clone --depth 1 https://github.com/two-pack/redmine_xlsx_format_issue_exporter.git |plugins/redmine_xlsx_format_issue_exporter; \
+ ```
 ------------------------
 
 # Docker Compose を使った自分好みの Redmine 実行環境
